@@ -31,6 +31,15 @@ class SearchViewController: UIViewController
         view.addGestureRecognizer(tap)
     }
 
+    @objc func pushFollowerListViewController()
+    {
+        let followerListViewController = FollowerListViewController()
+        followerListViewController.username = usernameTextField.text
+        followerListViewController.title = usernameTextField.text
+
+        navigationController?.pushViewController(followerListViewController, animated: true)
+    }
+
     func configureLogoImageView()
     {
         view.addSubview(logoImageView)
@@ -56,6 +65,8 @@ class SearchViewController: UIViewController
             usernameTextField.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -50),
             usernameTextField.heightAnchor.constraint(equalToConstant: 50),
         ])
+
+        usernameTextField.delegate = self
     }
 
     func configureCallToActionButton()
@@ -68,5 +79,17 @@ class SearchViewController: UIViewController
             callToActionButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -50),
             callToActionButton.heightAnchor.constraint(equalToConstant: 50),
         ])
+
+        callToActionButton.addTarget(self, action: #selector(pushFollowerListViewController), for: .touchUpInside)
+    }
+}
+
+extension SearchViewController: UITextFieldDelegate
+{
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool
+    {
+        pushFollowerListViewController()
+
+        return true
     }
 }
