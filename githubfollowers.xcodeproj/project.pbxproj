@@ -16,6 +16,7 @@
 		6F63A70F23EF346400E4DEC3 /* FavoritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F63A70E23EF346400E4DEC3 /* FavoritesListViewController.swift */; };
 		6FB3007E23F254AE00C74611 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB3007D23F254AE00C74611 /* GFButton.swift */; };
 		6FB5129B2400C42D00554A37 /* FollowerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB5129A2400C42D00554A37 /* FollowerListViewController.swift */; };
+		6FBA4B3A24076BA400BEFE1A /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBA4B3924076BA400BEFE1A /* GFBodyLabel.swift */; };
 		6FC35D4123F3A223003A2D24 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC35D4023F3A223003A2D24 /* GFTextField.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		6F63A70E23EF346400E4DEC3 /* FavoritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewController.swift; sourceTree = "<group>"; };
 		6FB3007D23F254AE00C74611 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		6FB5129A2400C42D00554A37 /* FollowerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListViewController.swift; sourceTree = "<group>"; };
+		6FBA4B3924076BA400BEFE1A /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		6FC35D4023F3A223003A2D24 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +93,7 @@
 				6FB3007D23F254AE00C74611 /* GFButton.swift */,
 				6FC35D4023F3A223003A2D24 /* GFTextField.swift */,
 				6F3A17EF24036D4700EF0D91 /* GFTitleLabel.swift */,
+				6FBA4B3924076BA400BEFE1A /* GFBodyLabel.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				6F63A70B23EF335300E4DEC3 /* SearchViewController.swift in Sources */,
 				6FB3007E23F254AE00C74611 /* GFButton.swift in Sources */,
 				6FB5129B2400C42D00554A37 /* FollowerListViewController.swift in Sources */,
+				6FBA4B3A24076BA400BEFE1A /* GFBodyLabel.swift in Sources */,
 				6F3A17F024036D4700EF0D91 /* GFTitleLabel.swift in Sources */,
 				6F0D59B923C973D30061E099 /* AppDelegate.swift in Sources */,
 				6F63A70F23EF346400E4DEC3 /* FavoritesListViewController.swift in Sources */,
