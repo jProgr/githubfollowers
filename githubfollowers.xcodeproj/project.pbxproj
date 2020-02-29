@@ -84,6 +84,8 @@
 		6F63A70C23EF339F00E4DEC3 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6FA9F33B240A173200AABDD3 /* GFAlertViewController.swift */,
+				6F389645240ADEF700E7E3D3 /* UIViewControllerAlert.swift */,
 				6F63A70A23EF335300E4DEC3 /* SearchViewController.swift */,
 				6FB5129A2400C42D00554A37 /* FollowerListViewController.swift */,
 				6F63A70E23EF346400E4DEC3 /* FavoritesListViewController.swift */,
@@ -98,8 +100,6 @@
 				6FC35D4023F3A223003A2D24 /* GFTextField.swift */,
 				6F3A17EF24036D4700EF0D91 /* GFTitleLabel.swift */,
 				6FBA4B3924076BA400BEFE1A /* GFBodyLabel.swift */,
-				6FA9F33B240A173200AABDD3 /* GFAlertViewController.swift */,
-				6F389645240ADEF700E7E3D3 /* UIViewControllerAlert.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
