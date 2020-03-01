@@ -23,7 +23,7 @@ class SearchViewController: UIViewController
     {
         super.viewWillAppear(animated)
 
-        navigationController?.isNavigationBarHidden = true
+        navigationController?.setNavigationBarHidden(true, animated: true)
     }
 
     func createDismissKeyboardTapGesture()
