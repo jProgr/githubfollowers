@@ -3,15 +3,14 @@ import UIKit
 class FollowerListViewController: UIViewController
 {
     var username: String!
+    var collectionView: UICollectionView!
 
     override func viewDidLoad()
     {
         super.viewDidLoad()
 
-        view.backgroundColor = .systemBackground
-        navigationController?.isNavigationBarHidden = false
-        navigationController?.navigationBar.prefersLargeTitles = true
-
+        configureViewController()
+        configureCollectionView()
         getFollowers()
     }
 
@@ -20,6 +19,13 @@ class FollowerListViewController: UIViewController
         super.viewWillAppear(animated)
 
         navigationController?.setNavigationBarHidden(false, animated: true)
+    }
+
+    func configureViewController()
+    {
+        view.backgroundColor = .systemBackground
+        navigationController?.isNavigationBarHidden = false
+        navigationController?.navigationBar.prefersLargeTitles = true
     }
 
     func getFollowers()
@@ -33,5 +39,13 @@ class FollowerListViewController: UIViewController
                     self.presentGFAlertOnMainThread(title: "?", message: error.rawValue, buttonTitle: "Ok")
             }
        }
+    }
+
+    func configureCollectionView()
+    {
+        collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: UICollectionViewFlowLayout())
+        view.addSubview(collectionView)
+        collectionView.backgroundColor = .systemPink
+        collectionView.register(FollowerCell.self, forCellWithReuseIdentifier: FollowerCell.reuseID)
     }
 }
