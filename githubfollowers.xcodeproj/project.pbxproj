@@ -13,6 +13,7 @@
 		6F0D59C523C973DF0061E099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0D59C323C973DF0061E099 /* LaunchScreen.storyboard */; };
 		6F1B644624134DB500517BB9 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B644524134DB500517BB9 /* FollowerCell.swift */; };
 		6F22CCB62414469C00B78B8F /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F22CCB52414469C00B78B8F /* GFAvatarImageView.swift */; };
+		6F2B6FED241E9F57007CD6D0 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B6FEC241E9F57007CD6D0 /* UIHelper.swift */; };
 		6F389646240ADEF700E7E3D3 /* UIViewControllerAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F389645240ADEF700E7E3D3 /* UIViewControllerAlert.swift */; };
 		6F3A17F024036D4700EF0D91 /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3A17EF24036D4700EF0D91 /* GFTitleLabel.swift */; };
 		6F63A70B23EF335300E4DEC3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F63A70A23EF335300E4DEC3 /* SearchViewController.swift */; };
@@ -37,6 +38,7 @@
 		6F0D59C623C973DF0061E099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F1B644524134DB500517BB9 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		6F22CCB52414469C00B78B8F /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GFAvatarImageView.swift; path = UIComponents/GFAvatarImageView.swift; sourceTree = "<group>"; };
+		6F2B6FEC241E9F57007CD6D0 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIHelper.swift; path = githubfollowers/Utilities/UIHelper.swift; sourceTree = "<group>"; };
 		6F389645240ADEF700E7E3D3 /* UIViewControllerAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIViewControllerAlert.swift; path = githubfollowers/Controllers/UIViewControllerAlert.swift; sourceTree = SOURCE_ROOT; };
 		6F3A17EF24036D4700EF0D91 /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GFTitleLabel.swift; path = githubfollowers/UIComponents/GFTitleLabel.swift; sourceTree = SOURCE_ROOT; };
 		6F63A70A23EF335300E4DEC3 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 		6F0D59AC23C973D30061E099 = {
 			isa = PBXGroup;
 			children = (
+				6F2B6FEC241E9F57007CD6D0 /* UIHelper.swift */,
 				6F0D59B723C973D30061E099 /* githubfollowers */,
 				6F0D59B623C973D30061E099 /* Products */,
 			);
@@ -221,6 +224,7 @@
 				6FC35D4123F3A223003A2D24 /* GFTextField.swift in Sources */,
 				6F63A70B23EF335300E4DEC3 /* SearchViewController.swift in Sources */,
 				6FB3007E23F254AE00C74611 /* GFButton.swift in Sources */,
+				6F2B6FED241E9F57007CD6D0 /* UIHelper.swift in Sources */,
 				6F22CCB62414469C00B78B8F /* GFAvatarImageView.swift in Sources */,
 				6FB5129B2400C42D00554A37 /* FollowerListViewController.swift in Sources */,
 				6FBA4B3A24076BA400BEFE1A /* GFBodyLabel.swift in Sources */,
